@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import {
   useDeleteBookMutation,
   useFetchAllBooksQuery,
-} from "../../../redux/features/books/booksAPI";
+} from "../../../redux/features/books/booksApi";
 
 const ManageBooks = () => {
   const navigate = useNavigate();
