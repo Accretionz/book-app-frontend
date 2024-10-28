@@ -10,7 +10,7 @@ import getBaseUrl from "../../../utils/baseURL";
 import {
   useFetchBookByIdQuery,
   useUpdateBookMutation,
-} from "../../../redux/features/books/booksAPI";
+} from "../../../redux/features/books/booksApi";
 
 const UpdateBook = () => {
   const { id } = useParams();
